@@ -32,6 +32,9 @@ const resumeSchema = new Schema({
     ],
     personalSkills: [String],
     socials: [String]
+}, {
+    versionKey: false,
+
 })
 
 const Resume = model('Resume', resumeSchema);
