@@ -122,7 +122,7 @@ async function CreateResume(res, payload) {
             famousQuote,
             locked: tempLocked,
             hash: tempLocked ? genHash(lockedPassword) : "",
-            prfessionalSkills: tempProSkill,
+            professionalSkills: tempProSkill,
             personalSkills: tempPersonalSkill,
             socials: tempSocials
         }

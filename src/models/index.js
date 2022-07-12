@@ -24,7 +24,7 @@ const resumeSchema = new Schema({
     famousQuote: String,
     locked: Boolean,
     hash: String,
-    prfessionalSkills: [
+    professionalSkills: [
         {
             name: String,
             level: String
