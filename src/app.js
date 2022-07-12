@@ -26,7 +26,7 @@ app.use("/api/resume", router)
 
 const PORT = process.env.PORT || 8080
 
-mongoose.connect(DATABASE_URL, { useNewUrlParser: true }).then((res) => {
+mongoose.connect("mongodb+srv://benrobo:benrobo-tut71@cluster0.mnwd5.mongodb.net/?retryWrites=true&w=majority", { useNewUrlParser: true }).then((res) => {
     console.log("MONGODB CONNECTED")
     return app.listen(PORT, () => {
         console.log(`Server listening @ http://localhost:${PORT}`);
