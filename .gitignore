@@ -1,0 +1,14 @@
+# Node Modules
+
+/node_modules
+
+# ENV
+
+# development env
+.env
+.env.development
+.env.production
+
+# prisma schema/migration
+
+/prisma/migrations
